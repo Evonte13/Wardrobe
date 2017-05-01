@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Evonte's Wardrobe</h1>
+    <p class="lead">Where your Swag is taken to the next level.</p>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Tops","Index","Tops")</h2>
+       
+        <p>
+            <a href="#" class="thumbnail">
+                <img src="~/Content/images/shirt.jpg" style="width:150px; height:150px;" alt="top">
+            </a>
+        </p>
+<p>
+            Best Tops in Cleveland.
+        </p>
+       
+       
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Bottoms", "Index", "Bottoms")</h2>
+        <p>
+            <a href="#" class="thumbnail">
+                <img src="~/Content/images/addidaspant.jpg" style="width:150px; height:150px;" alt="pants">
+            </a>
+        </p>
+        <p>Best Bottoms yoe will find</p>
+       
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Accessories", "Index", "Accessories")</h2>
+        <p>
+            <a href="#" class="thumbnail">
+                <img src="~/Content/images/man-accessories-6.jpg" style="width:150px; height:150px;" alt="Accessories">
+            </a>
+        </p>
+        <p>Add to your style with accessories. </p>
+        
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Kicks or Shoes", "Index", "Shoes")</h2>
+        <p>
+            <a href="#" class="thumbnail">
+                <img src="~/Content/images/shoe.jpg" style="width:150px; height:150px;" alt="top">
+            </a>
+        </p>
+        <p>Best kicks in the land</p>
+        
+    </div>
+
+</div>
